@@ -5,7 +5,7 @@ var CleanWebpackPlugin = require('clean-webpack-plugin');
 var WebpackShellPlugin = require('webpack-shell-plugin');
 
 module.exports = {
-    entry: path.join(__dirname, 'src/app.ts'),
+    entry: path.join(__dirname, 'src/main.ts'),
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'game.js'

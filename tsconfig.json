@@ -9,7 +9,7 @@
   },
   "files": [
     "./src/globals.d.ts",
-    "./src/app.ts",
+    "./src/main.ts",
     "./node_modules/phaser-ce/typescript/phaser.comments.d.ts"
   ]
 }

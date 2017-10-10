@@ -6,7 +6,7 @@ var WebpackShellPlugin = require('webpack-shell-plugin');
 const Uglify = require("uglifyjs-webpack-plugin");
 
 module.exports = {
-    entry: path.join(__dirname, 'src/app.ts'),
+    entry: path.join(__dirname, 'src/main.ts'),
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'game.min.js'
